@@ -1,0 +1,16 @@
+# JWT Utility Library
+
+This is a simple Java library for extracting customer IDs from JWT tokens in HTTP requests.
+
+## Features
+- Extracts the `customerId` claim from a JWT token.
+- Throws a custom `UnauthorizedException` if the token is missing or invalid.
+
+## Installation
+Add the dependency to your project:
+```xml
+<dependency>
+    <groupId>org.jwtUtil.jwtcustomer</groupId>
+    <artifactId>jwt-library</artifactId>
+    <version>1.0.0</version>
+</dependency>
