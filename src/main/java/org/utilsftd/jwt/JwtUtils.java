@@ -1,8 +1,9 @@
-package org.jwtUtil.jwtcustomer;
+package org.utilsftd.jwt;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import jakarta.servlet.http.HttpServletRequest;
+import org.utilsftd.exception.UnauthorizedException;
 
 public class JwtUtils {
 

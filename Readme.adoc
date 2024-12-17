@@ -10,7 +10,7 @@ This is a simple Java library for extracting customer IDs from JWT tokens in HTT
 Add the dependency to your project:
 ```xml
 <dependency>
-    <groupId>org.jwtUtil.jwtcustomer</groupId>
+    <groupId>org.utilsftd.jwt</groupId>
     <artifactId>jwt-library</artifactId>
     <version>1.0.0</version>
 </dependency>

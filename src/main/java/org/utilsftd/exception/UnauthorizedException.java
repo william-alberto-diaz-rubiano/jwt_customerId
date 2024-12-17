@@ -1,4 +1,4 @@
-package org.jwtUtil.jwtcustomer;
+package org.utilsftd.exception;
 
 public class UnauthorizedException extends RuntimeException {
     public UnauthorizedException(String message) {
